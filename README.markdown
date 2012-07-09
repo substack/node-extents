@@ -5,6 +5,8 @@ Compute the extents around a polygon.
 Extents are like a bounding box, only decomposed into west, south, north, and
 east values instead of 2 or 4 points.
 
+[![build status](https://secure.travis-ci.org/substack/node-extents.png)](http://travis-ci.org/substack/node-extents)
+
 # example
 
 ``` js
