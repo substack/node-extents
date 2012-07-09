@@ -1,0 +1,36 @@
+{
+    "name" : "extents",
+    "version" : "0.0.0",
+    "description" : "compute the bounding extents of a polygon",
+    "main" : "index.js",
+    "bin" : {},
+    "directories" : {
+        "example" : "example",
+        "test" : "test"
+    },
+    "dependencies" : {},
+    "devDependencies" : {
+        "tap" : "~0.2.5"
+    },
+    "scripts" : {
+        "test" : "tap test/*.js"
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/substack/node-extents.git"
+    },
+    "homepage" : "https://github.com/substack/node-extents",
+    "keywords" : [
+        "bounding",
+        "box",
+        "extent",
+        "gis"
+    ],
+    "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+    },
+    "license" : "MIT",
+    "engine" : { "node" : ">=0.6" }
+}
